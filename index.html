@@ -1,0 +1,1033 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8" />
+    <title>trang web cua toi</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="stylesheet" href="acsset/main.css" />
+    <link rel="stylesheet" href="acsset/base.css" />
+    <link
+      rel="stylesheet"
+      href="fonts/fontawesome-free-5.15.4-web/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="gird">
+          <nav class="header__navbar">
+            <ul class="header__navbar-list">
+              <li class="header__navbar-item">Tải ứng dụng</li>
+              <li class="header__navbar-item">Chăm sóc khách hàng</li>
+              <li class="header__navbar-item">Kiểm tra đơn hàng</li>
+            </ul>
+          </nav>
+          <!-- header with search -->
+          <nav class="header__navbar-2">
+            <div class="header-with-search">
+              <div class="header__logo">
+                <svg
+                  class="header__logo-img"
+                  viewBox="0 0 87 48"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M69.052 12.375l-3.097 16.548a44.418 44.418 0 00-.74 6.633h-4.378l.27-2.94h-.068a6.042 6.042 0 01-5.251 3.008c-2.761 0-4.983-2.188-4.983-6.154 0-5.675 4.04-10.872 10.1-10.872.74 0 1.481.137 2.222.41l1.212-6.564 4.713-.069zm-6.666 10.394a2.664 2.664 0 00-1.885-.547c-2.828 0-4.848 3.35-4.848 6.496 0 1.983.875 3.077 2.222 3.077 1.414 0 3.03-1.436 3.636-4.581l.875-4.445zM4.481 30.017a10.123 10.123 0 005.252 1.436c1.818 0 3.501-.889 3.501-2.667 0-1.299-.942-2.12-2.962-3.145-2.424-1.3-4.646-3.009-4.646-5.95 0-4.512 3.905-7.316 8.753-7.316 2.693 0 4.31.616 5.252 1.163l-1.481 4.034a8.713 8.713 0 00-4.108-1.025c-2.222 0-3.366 1.162-3.366 2.393 0 1.299 1.346 2.12 3.232 3.145 2.693 1.436 4.444 3.283 4.444 5.95 0 4.991-4.108 7.59-9.023 7.59-3.097 0-5.32-.821-6.33-1.573l1.482-4.035zm27.606 4.308a13.756 13.756 0 01-5.992 1.3c-4.579 0-6.935-2.668-6.935-6.839 0-4.991 3.568-10.12 9.359-10.12 3.232 0 5.588 1.847 5.588 4.855 0 4.171-3.972 5.676-10.436 5.54 0 .615.202 1.162.471 1.64.606.82 1.684 1.3 3.098 1.3 1.548 0 3.097-.342 4.51-1.026l.338 3.35zm-4.174-12.24c-2.222 0-3.434 1.846-3.771 3.35 3.703.07 5.521-.478 5.521-1.982 0-.82-.606-1.368-1.75-1.368zm5.52 13.471l2.088-11.35c.404-2.052.74-4.24.875-5.676h4.242l-.404 3.077h.068a6.707 6.707 0 015.656-3.077c2.625 0 4.107 1.64 4.107 4.444 0 .958-.135 1.847-.27 2.804l-1.818 9.778h-4.713l1.75-9.368c.135-.615.135-1.23.135-1.846 0-1.163-.404-1.915-1.548-1.915-1.549 0-3.367 1.983-3.973 5.54l-1.414 7.59h-4.78zM84 25.3c0 5.95-3.973 10.325-9.561 10.325-4.107 0-6.8-2.735-6.8-6.77 0-5.675 3.904-10.325 9.56-10.325 4.31.069 6.8 3.078 6.8 6.77m-11.445 3.487c0 1.915.942 3.146 2.558 3.146 2.626 0 4.04-3.83 4.04-6.633 0-1.504-.606-3.077-2.558-3.077-2.694 0-4.107 4.034-4.04 6.565"
+                    fill="#fff"
+                  ></path>
+                </svg>
+              </div>
+              <div class="header__squares">
+                <i class="far fa-calendar"></i>
+                <div class="header__notify">
+                  <ul class="header__notify-list">
+                    <li class="header__notify-item">
+                      <i class="fas fa-female"></i>
+                      Thời trang nữ
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-tshirt"></i>
+                      Thời trang nam
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-paint-roller"></i>
+                      Sức khỏe - Làm đẹp
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-shoe-prints"></i>
+                      Dày dép - túi xách
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-clock"></i>
+                      Đồng hồ - Trang sức
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-mobile-alt"></i>
+                      Điện thoại - Laptop
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                    <li class="header__notify-item">
+                      <i class="fas fa-camera"></i>
+                      Phụ Kiện công nghệ
+                      <i class="fas fa-chevron-right"></i>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="header__search">
+                <input
+                  type="text"
+                  class="header__search-input"
+                  placeholder="Tim Kiếm trên sendo..."
+                />
+              </div>
+              <div class="header__search--icon">
+                <button class="btn">
+                  <i class="header__search--icon2 fas fa-search"></i>
+                </button>
+              </div>
+              <div class="header__bag">
+                <i class="fas fa-shopping-bag"></i>
+              </div>
+
+              <div class="header__dangnhap">
+                <h3 class="item-dangnhap">Đăng nhập</h3>
+              </div>
+            </div>
+            <div class="header__navbar--cuoi">
+              <ul class="header-item2">
+                <li class="item2">Cho bạn</li>
+                <li class="item2">Các loại thực phẩm khô</li>
+                <li class="item2">Đồ dùng nhà bếp</li>
+                <li class="item2">Dụng cụ làm vườn</li>
+                <li class="item2">Motor, xe máy, xe đạp điện</li>
+                <li class="item2">Thiết bị điện và phụ kiện</li>
+              </ul>
+            </div>
+          </nav>
+
+          <div class="grid__colum">
+            <div class="grid__column">
+              <div class="home__filter">
+                <span class="home__filter-label">Sắp xếp theo</span>
+                <button class="home__filter-bt btnm">Phổ biến</button>
+                <button class="home__filter-bt1 btnm_bb">Mới nhất</button>
+                <button class="home__filter-bt btnm">Bán chạy</button>
+                <div class="home-filter___page">
+                  <span class="home-filter__page-number">
+                    <span class="home-filter__page-current">1</span>
+                    /4
+                  </span>
+                  <div class="home-filter__page-control">
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fas fa-angle-left"></i>
+                    </a>
+                    <a href="" class="home-filter__page-btn">
+                      <i class="home-filter__page-icon fas fa-angle-right"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="home-product">
+              <div class="grid__row">
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="f">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: 0
+                          url(https://media3.scdn.vn/img4/2021/11_27/bVQjOl4Wu05CM5KFR3aC_simg_b5529c_250x250_maxb.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      khẩu trang giấy kk hôp 50 cái - 0531
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">35.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >23.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Sóc trăng</span>
+                      <span class="home-product-item__sold">Đã bán 555</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="f">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img3/2019/3_29/wOEjaw_simg_de2fe0_250x250_maxb.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Ghế Gaming Extreme Zero v2 - Màu full đen - ZRV2-4
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old"
+                        >4.500.000đ</span
+                      >
+                      <span class="home-product-item__price-curent"
+                        >3.990.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Sóc trăng</span>
+                      <span class="home-product-item__sold">Đã bán 555</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="g">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2020/08_14/bFBsOPLeObqEkWfYP43M_simg_de2fe0_500x500_maxb.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      PC Gaming i5 9400F / RX 570 4GB / Ram 8GB / SSD 120GB CHƠI
+                      GAME PUBG, ĐỒ HỌA GIÁ RẺ - LC GAMING 07
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old"
+                        >11.300.000đ</span
+                      >
+                      <span class="home-product-item__price-curent"
+                        >10.300.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Hà Nội</span>
+                      <span class="home-product-item__sold">Đã bán 5</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+                <div class="grid__colum2">
+                  <a class="home-product-item" href="h">
+                    <div
+                      class="home-product-item__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2021/03_29/cWns8bD5U5WHOKBHDLG2.jpg);
+                      "
+                    ></div>
+                    <h4 class="home-product-item__name">
+                      Giày lười độn đế nữ 8cm L562-141 - L562-141
+                    </h4>
+                    <div class="home-product-item__price">
+                      <span class="home-product-item__price-old">680.000đ</span>
+                      <span class="home-product-item__price-curent"
+                        >505.000đ</span
+                      >
+                    </div>
+
+                    <div class="home-product-item__action">
+                      <span class="home-product__like home-product__like-liked">
+                        <i class="home-product__like-icon-no far fa-heart"></i>
+                        <i
+                          class="home-product__like-icon-fill fas fa-heart"
+                        ></i>
+                      </span>
+                      <div class="home-product-item__ratinh">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                    </div>
+                    <div class="home-product-item__origin">
+                      <span class="home-product-item__place">Đà Nẵng</span>
+                      <span class="home-product-item__sold">Đã bán 20</span>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <ul class="pagination home-product__pagination">
+              <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon fas fa-angle-left"></i>
+                </a>
+              </li>
+              <li class="pagination-item pagination-item__active">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon">1</i>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon">2</i>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon">3</i>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon">4</i>
+                </a>
+              </li>
+              <li class="pagination-item">
+                <a href="" class="pagination-item__link">
+                  <i class="pagination-item__icon fas fa-angle-right"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="gridd">
+            <div class="grid_roww">
+              <ul class="footer__icon-item1">
+                <li class="footer__item-link">
+                  <a href="kli" class="footer__icon">
+                    <div
+                      class="footer__icon__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2020/12_16/gJwXr6FFZKZCGKWaz4RB.png);
+                      "
+                    ></div>
+                    <h4 class="h4">SIêu nhiều hàng tốt</h4>
+                    <span class="footer__icon-item"
+                      >Cần gì cũng có 26 ngành hàng & 10 triệu sản phẩm</span
+                    >
+                  </a>
+                </li>
+                <li class="footer__item-link">
+                  <a href="kli" class="footer__icon">
+                    <div
+                      class="footer__icon__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2020/12_16/EfZWQVfV6nQzu2vMmnwC.png);
+                      "
+                    ></div>
+                    <h4 class="">SIêu yên tâm</h4>
+                    <span class="footer__icon-item">Miễn phí đổi trả 48h</span>
+                  </a>
+                </li>
+                <li class="footer__item-link">
+                  <a href="kli" class="footer__icon">
+                    <div
+                      class="footer__icon__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2020/12_16/j5C6IQz7gIXPgjFJxmRz.png);
+                      "
+                    ></div>
+                    <h4 class="">SIêu tiện lợi</h4>
+                    <span class="footer__icon-item"
+                      >Mang thế giới mua sắm của Sendo trong tầm tay bạn</span
+                    >
+                  </a>
+                </li>
+                <li class="footer__item-link">
+                  <a href="kli" class="footer__icon">
+                    <div
+                      class="footer__icon__img"
+                      style="
+                        background-image: url(https://media3.scdn.vn/img4/2020/12_16/7AJFQGQ5qvS7gGOz8P7a.png);
+                      "
+                    ></div>
+                    <h4 class="">SIêu tiết kiệm</h4>
+                    <span class="footer__icon-item"
+                      >Giá hợp lý, vừa túi tiền. Luôn có nhiều chương trình
+                      khuyến mãi</span
+                    >
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+  </body>
+</html>
